@@ -1,0 +1,30 @@
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Button {
+    background: linear-gradient(to right, #1488CC , #2B32B2);
+    font: inherit;
+    color: white;
+    border: 1px solid blue;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background: #ec008c;
+}
+
+.Button.showPerson {
+    background : linear-gradient(to bottom right, #ec008c, #fc6767);
+    color: white;
+}
+
+.Button.showPerson:hover {
+    background: black;
+}

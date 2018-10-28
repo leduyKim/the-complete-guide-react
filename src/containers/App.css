@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.App .Button {
+  background: linear-gradient(to right, #1488CC , #2B32B2);
+  font: inherit;
+  color: white;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
+}
