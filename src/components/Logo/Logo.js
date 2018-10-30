@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './Logo.css';
-import BurgerLogo from '/home/ldkim/Desktop/buiger-app/src/assets/images/burger-logo.png';
+import BurgerLogo from '../../assets/images/burger-logo.png';
 
 const logo = (props) => (
     <div className = {classes.Logo} style = {{height: props.height}}>
