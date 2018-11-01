@@ -18,6 +18,8 @@
 .Button:disabled {
     color: #ccc;
     cursor: not-allowed;
+    border: 1px solid #eee;
+    padding: 8px;
 }
 
 .Success {
