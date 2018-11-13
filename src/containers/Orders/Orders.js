@@ -8,10 +8,12 @@ class Orders extends Component {
         orders: [],
         loading: true
     }
-    componentWillMount() {
+    componentDidMount() {
+        console.log('cdm() orders.js')
         axios.get('/orders.json')
             .then(res => {
                 let fetchOrders = [];
+                console.log(res.data)
                 for (const key in res.data) {
                     fetchOrders.push({
                         ...res.data[key],
