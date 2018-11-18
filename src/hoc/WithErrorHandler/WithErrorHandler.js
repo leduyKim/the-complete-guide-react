@@ -28,6 +28,10 @@ const withErrorHandler = (WrappedComponent, axios) => {
         errorConfirmedHandler = () => {
             this.setState({ error: null })
         }
+        componentDidMount() {
+            console.log('cdm() withErrorHandler.js')
+        }
+
         render() {
             console.log('[withErrorHandler.js] render()')
             return (

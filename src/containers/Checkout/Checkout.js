@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 import CheckoutSummary from '../../components/Order/CheckoutSummary/CheckoutSummary';
 import AsyncComponet from '../../hoc/AsyncComponent/AsyncComponent';
-import * as actions from '../../store/actions/index';
+// import * as actions from '../../store/actions/index';
 
 const ContactDataLazily = AsyncComponet(() => {
     return import('./ContactData/ContactData')

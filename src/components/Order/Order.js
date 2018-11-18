@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Order.css';
 
 const order = (props) => {
+    console.log('order.js stateless')
     let ingredients = [];
     for(let key in props.ingredients) {
         ingredients.push({
